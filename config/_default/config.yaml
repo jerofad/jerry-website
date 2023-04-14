@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
+title: Jeremiah Fadugba # Website name
 baseURL: 'https://example.com/' # Website URL
 
 ############################
@@ -29,8 +29,8 @@ module:
 ############################
 ## ADVANCED
 ############################
-
-enableGitInfo: false
+#  Get last modified date for content from Git?
+enableGitInfo: true
 summaryLength: 30
 paginate: 10
 enableEmoji: true
